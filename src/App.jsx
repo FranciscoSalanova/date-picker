@@ -1,9 +1,9 @@
-import DatePicker from './components/DatePicker'
+import { DatePicker } from './components/DatePicker'
 
 function App() {
   return (
     <>
-      <DatePicker />
+      <DatePicker value={new Date()} />
     </>
   )
 }
