@@ -6,7 +6,7 @@ Speaking of CSS, all the HTML/CSS you need for the project is included. Make sur
 
 The only other thing to note about this project is that it is built using `date-fns`. You can use any date library you want (even the built in JS Date API), but I will be using `date-fns` in my walkthrough video as I find it to be one of the best date libraries available.
 
-# Instructions
+## Instructions
 
 1. Create a `DatePicker` component that renders a button to open/close a calendar.
    - This component should be a controlled component which means that it should accept an `onChange` and `value` prop (similar to an `input` element).
